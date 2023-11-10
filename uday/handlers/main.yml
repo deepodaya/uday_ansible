@@ -1,0 +1,6 @@
+---
+# handlers file for uday
+- name: Restart service
+  service:
+      name: "{{ svc_name }}"
+      state: restarted
